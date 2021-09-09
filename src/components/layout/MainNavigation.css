@@ -1,0 +1,19 @@
+.bg-custom {
+    --bs-bg-opacity: 1;
+    background-color: #E00002;
+}
+
+.btn-custom {
+    color: #dfdfdf !important;
+    background-color: #4900FF !important;
+}
+
+.btn-custom:hover {
+    color: #dfdfdf !important;
+    background-color: #7D53EFFF !important;
+}
+
+.btn {
+    color: #4900FF;
+    background-color: #4900FF;
+}

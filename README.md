@@ -1,6 +1,41 @@
-# Getting Started with Create React App
+# React Project for Toolbox 
 
+# Pre-requisites
+- Install [Node.js](https://nodejs.org/en/) version 12.0.0
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+- Clone the repository
+```
+git clone  <git lab template url> <project_name>
+```
+- Install dependencies
+```
+cd <toolbox-front>
+npm install
+```
+- Build and run the project
+```
+npm start
+```
+- Navigate to [http://localhost:3000](http://localhost:3000)
+
+
+## Project Structure
+The folder structure of this app is explained below:
+
+| Name | Description |
+| ------------------------ | --------------------------------------------------------------------------------------------- |
+| **node_modules**         | Contains all  npm dependencies                                                            |
+| **src**                  | Contains  source code that will be compiled to the dist dir                               |
+| **src/components**       | Contains a collection of UI components that will be shared and used across files in the project.
+| **src/pages**            | Routes of the application. Each component inside this folder has its own route.
+| **src/store**            | All global React states that can be accessed from any component within the application (**Redux**).
+| **src**/index.js         | Is the JavaScript entry point.                                                              |
+| **src**/App.js           | Root component of the react app                                                            |
+| package.json             | Contains npm dependencies as well as [build scripts](#what-if-a-library-isnt-on-definitelytyped)   |
+
 
 ## Available Scripts
 
