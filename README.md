@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - Clone the repository
 ```
-git clone  <git lab template url> <project_name>
+git clone  https://github.com/Cesarebr92/toolbox-react-front.git
 ```
 - Install dependencies
 ```
